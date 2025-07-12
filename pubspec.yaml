@@ -1,0 +1,60 @@
+name: canteen_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  cloud_firestore: ^4.15.0
+  firebase_messaging: ^14.7.0
+  google_sign_in: ^6.2.1
+  http: ^1.2.1
+  font_awesome_flutter: ^10.7.0
+  animated_text_kit: ^4.2.2
+  flutter_animate: ^4.3.0
+  google_fonts: ^6.2.1
+  image_picker: ^1.1.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+  flutter_local_notifications: ^17.1.2
+  cupertino_icons: ^1.0.6
+  upi_india: ^3.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/food_bowl.jpg
+    - assets/idli.jpg
+    - assets/masala_dosa.jpg
+    - assets/poha.jpg
+    - assets/upma.jpg
+    - assets/aloo_paratha.jpg
+    - assets/lunch_veg_thali.jpg
+    - assets/paneer_butter_masala.jpg
+    - assets/chicken_biryani.jpg
+    - assets/curd_rice.jpg
+    - assets/samosa.jpg
+    - assets/veg_puff.jpg
+    - assets/pakoda.jpg
+    - assets/masala_tea.jpg
+    - assets/roti_sabzi.jpg
+    - assets/dal_khichdi.jpg
+    - assets/egg_curry.jpg
+    - assets/mixed_veg.jpg
+    - assets/gpay_icon.png
+    - assets/phonepe_icon.png
